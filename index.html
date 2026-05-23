@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pet's Care Service | Expert Veterinary Care — Compassion · Care · Commitment</title>
+  <meta name="description" content="Pet's Care Service provides expert veterinary consultations, grooming, lab diagnostics, vaccinations, surgery & 24/7 ambulance. Special 50% discount for street dogs. Call 7073450706."/>
+  <meta name="keywords" content="pet care, veterinary clinic, dog grooming, cat care, pet hospital, vet home visit, pet ambulance, animal surgery, pet vaccination, lab tests pets"/>
+  <meta property="og:title" content="Pet's Care Service — Tender Paws, True Care"/>
+  <meta property="og:description" content="Professional veterinary care for your beloved pets. Home visits, diagnostics, surgery & 24/7 emergency ambulance."/>
+  <meta property="og:type" content="website"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- FLOATING CALL BUTTON -->
+<a href="tel:7073450706" class="fab" aria-label="Call us">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92v2z"/></svg>
+  <span>7073450706</span>
+</a>
+
+<!-- NAVBAR -->
+<nav class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#" class="nav__logo">
+      <div class="nav__logo-mark">
+        <svg viewBox="0 0 40 40" fill="none">
+          <circle cx="20" cy="20" r="19" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M20 10 C14 10 10 14 10 19 C10 25 14 28 20 30 C26 28 30 25 30 19 C30 14 26 10 20 10Z" fill="currentColor" opacity="0.15"/>
+          <path d="M16 16 C16 14 18 13 20 13 C22 13 24 14 24 16 C24 18 22 19 20 21 C18 19 16 18 16 16Z" fill="currentColor" opacity="0.6"/>
+          <circle cx="15" cy="23" r="2" fill="currentColor" opacity="0.5"/>
+          <circle cx="25" cy="23" r="2" fill="currentColor" opacity="0.5"/>
+          <path d="M20 21 L20 27" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <div class="nav__logo-text">
+        <span class="nav__logo-name">Pet's Care</span>
+        <span class="nav__logo-sub">SERVICE</span>
+      </div>
+    </a>
+    <button class="nav__toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#offer">Offer</a></li>
+      <li><a href="#why">Why Us</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="tel:7073450706" class="nav__cta">Book Appointment</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <!-- 3D geometric backdrop -->
+  <div class="hero__scene">
+    <div class="geo geo--sphere-lg"></div>
+    <div class="geo geo--sphere-sm"></div>
+    <div class="geo geo--ring"></div>
+    <div class="geo geo--cube"></div>
+    <div class="geo geo--pill"></div>
+    <div class="grid-overlay"></div>
+  </div>
+
+  <div class="hero__wrap">
+    <div class="hero__copy">
+      <div class="hero__eyebrow reveal">
+        <span class="eyebrow-line"></span>
+        Compassion · Care · Commitment
+        <span class="eyebrow-line"></span>
+      </div>
+      <h1 class="hero__h1 reveal">
+        Tender Paws,<br/>
+        <em>True Care</em>
+      </h1>
+      <p class="hero__desc reveal">
+        Because your pet deserves the finest medical attention — delivered with warmth, precision, and an open heart.
+      </p>
+      <p class="hero__tagline reveal">We care, because they do.</p>
+      <div class="hero__ctas reveal">
+        <a href="tel:7073450706" class="btn btn--gold btn--3d">Book Appointment</a>
+        <a href="#services" class="btn btn--ghost">Explore Services</a>
+      </div>
+    </div>
+
+    <div class="hero__visual reveal">
+      <!-- 3D Floating Card Stack -->
+      <div class="card-stack">
+        <div class="card-stack__bg-2"></div>
+        <div class="card-stack__bg-1"></div>
+        <div class="card-stack__main">
+          <div class="hero-card">
+            <div class="hero-card__header">
+              <div class="hero-card__status">
+                <span class="pulse-dot"></span>Available Now
+              </div>
+              <div class="hero-card__badge">50% OFF</div>
+            </div>
+            <!-- SVG Illustration: Dog + Cat silhouette -->
+            <div class="hero-card__art">
+              <svg viewBox="0 0 280 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- background glow -->
+                <ellipse cx="140" cy="160" rx="110" ry="30" fill="url(#glow1)" opacity="0.4"/>
+                <!-- DOG -->
+                <g transform="translate(30, 20)">
+                  <!-- body -->
+                  <ellipse cx="75" cy="130" rx="52" ry="38" fill="url(#dogbody)"/>
+                  <!-- head -->
+                  <circle cx="120" cy="90" r="36" fill="url(#doghead)"/>
+                  <!-- snout -->
+                  <ellipse cx="138" cy="104" rx="18" ry="13" fill="url(#dogsnout)"/>
+                  <!-- nose -->
+                  <ellipse cx="143" cy="100" rx="6" ry="4" fill="#3a2010"/>
+                  <!-- eyes -->
+                  <circle cx="113" cy="84" r="7" fill="#1a0f05"/>
+                  <circle cx="115" cy="82" r="2" fill="white"/>
+                  <!-- ear left -->
+                  <ellipse cx="94" cy="66" rx="14" ry="20" fill="url(#dogear)" transform="rotate(-15 94 66)"/>
+                  <!-- ear right -->
+                  <ellipse cx="148" cy="62" rx="12" ry="18" fill="url(#dogear)" transform="rotate(20 148 62)"/>
+                  <!-- tail -->
+                  <path d="M23 110 Q10 90 18 70 Q22 60 28 72" stroke="url(#dogbody)" stroke-width="10" stroke-linecap="round" fill="none"/>
+                  <!-- front legs -->
+                  <rect x="88" y="155" width="16" height="30" rx="8" fill="url(#dogbody)"/>
+                  <rect x="110" y="155" width="16" height="30" rx="8" fill="url(#dogbody)"/>
+                  <!-- paw -->
+                  <ellipse cx="96" cy="185" rx="9" ry="5" fill="url(#dogsnout)"/>
+                  <ellipse cx="118" cy="185" rx="9" ry="5" fill="url(#dogsnout)"/>
+                </g>
+                <!-- CAT -->
+                <g transform="translate(145, 25)">
+                  <!-- body -->
+                  <ellipse cx="52" cy="130" rx="42" ry="44" fill="url(#catbody)"/>
+                  <!-- head -->
+                  <circle cx="56" cy="80" r="32" fill="url(#cathead)"/>
+                  <!-- ears -->
+                  <polygon points="32,60 24,30 48,50" fill="url(#catear)"/>
+                  <polygon points="34,57 28,36 46,50" fill="#ffc4b0" opacity="0.6"/>
+                  <polygon points="78,58 86,28 64,50" fill="url(#catear)"/>
+                  <polygon points="76,55 82,34 66,50" fill="#ffc4b0" opacity="0.6"/>
+                  <!-- eyes -->
+                  <ellipse cx="44" cy="78" rx="7" ry="8" fill="#1a2a1a"/>
+                  <ellipse cx="68" cy="78" rx="7" ry="8" fill="#1a2a1a"/>
+                  <circle cx="45" cy="75" r="2.5" fill="white"/>
+                  <circle cx="69" cy="75" r="2.5" fill="white"/>
+                  <!-- nose -->
+                  <polygon points="56,88 52,93 60,93" fill="#e87a7a"/>
+                  <!-- mouth -->
+                  <path d="M52 93 Q56 98 60 93" stroke="#c06060" stroke-width="1.5" fill="none"/>
+                  <!-- whiskers -->
+                  <line x1="24" y1="88" x2="48" y2="90" stroke="rgba(255,255,255,0.5)" stroke-width="1"/>
+                  <line x1="22" y1="93" x2="48" y2="92" stroke="rgba(255,255,255,0.5)" stroke-width="1"/>
+                  <line x1="64" y1="90" x2="88" y2="88" stroke="rgba(255,255,255,0.5)" stroke-width="1"/>
+                  <line x1="64" y1="92" x2="88" y2="93" stroke="rgba(255,255,255,0.5)" stroke-width="1"/>
+                  <!-- tail -->
+                  <path d="M90 140 Q110 120 108 95 Q106 80 98 88" stroke="url(#catbody)" stroke-width="9" stroke-linecap="round" fill="none"/>
+                  <!-- front paws -->
+                  <ellipse cx="38" cy="170" rx="14" ry="8" fill="url(#cathead)"/>
+                  <ellipse cx="68" cy="170" rx="14" ry="8" fill="url(#cathead)"/>
+                </g>
+                <!-- stethoscope overlay -->
+                <g opacity="0.25" transform="translate(10,10)">
+                  <circle cx="50" cy="40" r="12" stroke="white" stroke-width="2" fill="none"/>
+                  <path d="M50 52 Q50 75 70 75 Q90 75 90 55 L90 42" stroke="white" stroke-width="2" fill="none"/>
+                  <circle cx="90" cy="38" r="6" stroke="white" stroke-width="2" fill="none"/>
+                </g>
+                <defs>
+                  <radialGradient id="glow1" cx="50%" cy="50%">
+                    <stop offset="0%" stop-color="#c9922a" stop-opacity="0.8"/>
+                    <stop offset="100%" stop-color="#c9922a" stop-opacity="0"/>
+                  </radialGradient>
+                  <linearGradient id="dogbody" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#c8a06a"/>
+                    <stop offset="100%" stop-color="#9a6a38"/>
+                  </linearGradient>
+                  <linearGradient id="doghead" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#d4a870"/>
+                    <stop offset="100%" stop-color="#a87840"/>
+                  </linearGradient>
+                  <linearGradient id="dogsnout" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#e8c090"/>
+                    <stop offset="100%" stop-color="#c49058"/>
+                  </linearGradient>
+                  <linearGradient id="dogear" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="#a07030"/>
+                    <stop offset="100%" stop-color="#7a5020"/>
+                  </linearGradient>
+                  <linearGradient id="catbody" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#8a9aaa"/>
+                    <stop offset="100%" stop-color="#5a6878"/>
+                  </linearGradient>
+                  <linearGradient id="cathead" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#9aaaba"/>
+                    <stop offset="100%" stop-color="#6a7a8a"/>
+                  </linearGradient>
+                  <linearGradient id="catear" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="#7a8a9a"/>
+                    <stop offset="100%" stop-color="#506070"/>
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            <div class="hero-card__footer">
+              <div class="hero-card__info">
+                <div class="info-dot info-dot--green"></div>
+                <span>Vets on call — 24 hours</span>
+              </div>
+              <a href="tel:7073450706" class="hero-card__call">Call Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- floating mini badges -->
+        <div class="floating-badge floating-badge--a">
+          <svg viewBox="0 0 20 20" fill="none"><path d="M10 2L12.4 7.5H18L13.5 11.2L15.5 17L10 13.5L4.5 17L6.5 11.2L2 7.5H7.6L10 2Z" fill="#c9922a"/></svg>
+          Certified Vets
+        </div>
+        <div class="floating-badge floating-badge--b">
+          <svg viewBox="0 0 20 20" fill="currentColor"><circle cx="10" cy="10" r="8" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10 6v4l3 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          24/7 Care
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero__scroll">
+    <div class="scroll-track"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- TRUST STRIP -->
+<div class="trust-strip">
+  <div class="trust-strip__inner">
+    <div class="trust-stat reveal">
+      <span class="trust-stat__num" data-target="500">0</span><span class="trust-stat__suf">+</span>
+      <span class="trust-stat__label">Happy Pets</span>
+    </div>
+    <div class="trust-sep"></div>
+    <div class="trust-stat reveal">
+      <span class="trust-stat__num" data-target="8">0</span><span class="trust-stat__suf"></span>
+      <span class="trust-stat__label">Expert Vets</span>
+    </div>
+    <div class="trust-sep"></div>
+    <div class="trust-stat reveal">
+      <span class="trust-stat__num" data-target="100">0</span><span class="trust-stat__suf">%</span>
+      <span class="trust-stat__label">Commitment</span>
+    </div>
+    <div class="trust-sep"></div>
+    <div class="trust-stat reveal">
+      <span class="trust-stat__num" data-target="24">0</span><span class="trust-stat__suf">/7</span>
+      <span class="trust-stat__label">Emergency Line</span>
+    </div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section class="about section" id="about">
+  <div class="container">
+    <div class="about__layout">
+
+      <!-- 3D Visual Side -->
+      <div class="about__visual reveal">
+        <div class="about__3d-scene">
+          <div class="about__3d-card">
+            <!-- Stethoscope SVG -->
+            <svg class="about__stethoscope" viewBox="0 0 200 220" fill="none">
+              <circle cx="100" cy="50" r="32" stroke="url(#stethGrad)" stroke-width="5" fill="none"/>
+              <circle cx="100" cy="50" r="20" fill="url(#stethInner)"/>
+              <path d="M100 50 L100 80 Q100 140 150 140" stroke="url(#stethGrad)" stroke-width="6" fill="none" stroke-linecap="round"/>
+              <circle cx="150" cy="152" r="20" fill="url(#stethEnd)" stroke="url(#stethGrad)" stroke-width="3"/>
+              <path d="M82 24 L82 18" stroke="url(#stethGrad)" stroke-width="4" stroke-linecap="round"/>
+              <path d="M118 24 L118 18" stroke="url(#stethGrad)" stroke-width="4" stroke-linecap="round"/>
+              <path d="M72 30 L68 25" stroke="url(#stethGrad)" stroke-width="4" stroke-linecap="round"/>
+              <path d="M128 30 L132 25" stroke="url(#stethGrad)" stroke-width="4" stroke-linecap="round"/>
+              <circle cx="100" cy="50" r="6" fill="white" opacity="0.9"/>
+              <circle cx="148" cy="150" r="6" fill="white" opacity="0.6"/>
+              <defs>
+                <linearGradient id="stethGrad" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#c9922a"/>
+                  <stop offset="100%" stop-color="#8a5a10"/>
+                </linearGradient>
+                <radialGradient id="stethInner" cx="50%" cy="40%">
+                  <stop offset="0%" stop-color="#e8b060"/>
+                  <stop offset="100%" stop-color="#a07020"/>
+                </radialGradient>
+                <radialGradient id="stethEnd" cx="40%" cy="35%">
+                  <stop offset="0%" stop-color="#d4a040"/>
+                  <stop offset="100%" stop-color="#7a5010"/>
+                </radialGradient>
+              </defs>
+            </svg>
+
+            <!-- Heartbeat line -->
+            <svg class="about__heartbeat" viewBox="0 0 260 60" fill="none">
+              <path class="heartbeat-path" d="M0 30 L40 30 L55 10 L65 50 L75 20 L85 40 L95 30 L260 30" stroke="url(#hbGrad)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <defs>
+                <linearGradient id="hbGrad" x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0%" stop-color="#c9922a" stop-opacity="0"/>
+                  <stop offset="40%" stop-color="#c9922a"/>
+                  <stop offset="100%" stop-color="#c9922a" stop-opacity="0"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+
+          <!-- Floating info chip -->
+          <div class="about__chip about__chip--a">
+            <div class="chip__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </div>
+            <div>
+              <strong>Certified Practice</strong>
+              <small>Licensed Veterinarians</small>
+            </div>
+          </div>
+          <div class="about__chip about__chip--b">
+            <div class="chip__icon chip__icon--red">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+            </div>
+            <div>
+              <strong>We Truly Care</strong>
+              <small>Every pet matters</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Text -->
+      <div class="about__text">
+        <p class="section__label reveal">Who We Are</p>
+        <h2 class="section__title reveal">Your Pet's Health<br/>Is Our <em>Sacred Mission</em></h2>
+        <p class="about__lead reveal">At Pet's Care Service, we believe the bond between humans and their animals is one of life's most precious gifts. We honour that bond with clinical excellence and boundless compassion.</p>
+        <p class="reveal">Our team of licensed veterinarians and dedicated pet-care professionals brings decades of combined experience — treating every animal, whether a pampered companion or a street dog in need, with the same unwavering care.</p>
+
+        <div class="about__pillars reveal">
+          <div class="pillar">
+            <div class="pillar__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+            </div>
+            <strong>Compassion</strong>
+            <span>We lead with love</span>
+          </div>
+          <div class="pillar">
+            <div class="pillar__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            </div>
+            <strong>Care</strong>
+            <span>Clinical excellence</span>
+          </div>
+          <div class="pillar">
+            <div class="pillar__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <strong>Commitment</strong>
+            <span>Always by your side</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services section" id="services">
+  <div class="container">
+    <div class="section__header">
+      <p class="section__label reveal">What We Offer</p>
+      <h2 class="section__title reveal">Comprehensive <em>Pet Care Services</em></h2>
+      <p class="section__desc reveal">From routine wellness visits to emergency surgeries — every service delivered with precision and warmth.</p>
+    </div>
+
+    <div class="services__grid">
+
+      <div class="svc-card reveal" style="--i:0">
+        <div class="svc-card__icon-wrap">
+          <svg viewBox="0 0 48 48" fill="none">
+            <circle cx="24" cy="24" r="22" fill="url(#ic1)"/>
+            <path d="M24 14 C18 14 14 18 14 23 C14 29 18 32 24 34 C30 32 34 29 34 23 C34 18 30 14 24 14Z" fill="white" opacity="0.9"/>
+            <circle cx="20" cy="22" r="2.5" fill="url(#ic1)"/>
+            <circle cx="28" cy="22" r="2.5" fill="url(#ic1)"/>
+            <path d="M20 27 Q24 30 28 27" stroke="url(#ic1)" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+            <defs><linearGradient id="ic1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#c9922a"/><stop offset="100%" stop-color="#8a5a10"/></linearGradient></defs>
+          </svg>
+        </div>
+        <h3>Pet Care Service</h3>
+        <p>Dedicated day care and daily health monitoring in a safe, nurturing clinical environment where every pet is treated like family.</p>
+        <div class="svc-card__arrow">
+          <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 10h12M10 4l6 6-6 6"/></svg>
+        </div>
+      </div>
+
+      <div class="svc-card reveal" style="--i:1">
+        <div class="svc-card__icon-wrap">
+          <svg viewBox="0 0 48 48" fill="none">
+            <circle cx="24" cy="24" r="22" fill="url(#ic2)"/>
+            <circle cx="24" cy="18" r="7" fill="white" opacity="0.9"/>
+            <path d="M12 36 C12 30 17 26 24 26 C31 26 36 30 36 36" fill="white" opacity="0.7"/>
+            <defs><linearGradient id="ic2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#2a7ac9"/><stop offset="100%" stop-color="#0a4a8a"/></linearGradient></defs>
+          </svg>
+        </div>
+        <h3>Doctor Consultation</h3>
+        <p>One-on-one sessions with licensed veterinarians — thorough examinations, accurate diagnoses, and compassionate guidance for pet parents.</p>
+        <div class="svc-card__arrow">
+          <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 10h12M10 4l6 6-6 6"/></svg>
+        </div>
+      </div>
+
+      <div class="svc-card reveal" style="--i:2">
+        <div class="svc-card__icon-wrap">
+          <svg viewBox="0 0 48 48" fill="none">
+            <circle cx="24" cy="24" r="22" fill="url(#ic3)"/>
+            <rect x="14" y="18" width="20" height="16" rx="3" fill="white" opacity="0.9"/>
+            <circle cx="24" cy="14" r="4" fill="white" opacity="0.7"/>
+            <path d="M19 24 L22 27 L29 20" stroke="url(#ic3)" stroke-width="2" stroke-linecap="round"/>
+            <defs><linearGradient id="ic3" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#2ac97a"/><stop offset="100%" stop-color="#0a8a4a"/></linearGradient></defs>
+          </svg>
+        </div>
+        <h3>Vet & Doctor Home Visit</h3>
+        <p>No travel stress. Our experienced vets arrive at your home, equipped for examinations, treatments, and minor procedures.</p>
+        <div class="svc-card__arrow">
+          <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 10h12M10 4l6 6-6 6"/></svg>
+        </div>
+      </div>
+
+      <div class="svc-card reveal" style="--i:3">
+        <div class="svc-card__icon-wrap">
+          <svg viewBox="0 0 48 48" fill="none">
+            <circle cx="24" cy="24" r="22" fill="url(#ic4)"/>
+            <circle cx="24" cy="24" r="8" fill="white" opacity="0.9"/>
+            <circle cx="24" cy="24" r="3" fill="url(#ic4)"/>
+            <path d="M24 12 L24 16 M24 32 L24 36 M12 24 L16 24 M32 24 L36 24" stroke="white" stroke-width="2" stroke-linecap="round"/>
+            <defs><linearGradient id="ic4" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#9a2ac9"/><stop offset="100%" stop-color="#5a0a8a"/></linearGradient></defs>
+          </svg>
+        </div>
+        <h3>Lab Tests (Blood, X-Ray)</h3>
+        <p>Full in-house diagnostic laboratory with blood panels, X-ray imaging, and rapid results for accurate, informed treatment decisions.</p>
+        <div class="svc-card__arrow">
+          <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 10h12M10 4l6 6-6 6"/></svg>
+        </div>
+      </div>
+
+      <div class="svc-card reveal" style="--i:4">
+        <div class="svc-card__icon-wrap">
+          <svg viewBox="0 0 48 48" fill="none">
+            <circle cx="24" cy="24" r="22" fill="url(#ic5)"/>
+            <path d="M18 16 L18 32 M14 20 L22 20" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+            <circle cx="30" cy="24" r="8" fill="white" opacity="0.3" stroke="white" stroke-width="1.5"/>
+            <circle cx="30" cy="24" r="3" fill="white"/>
+            <defs><linearGradient id="ic5" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#c92a2a"/><stop offset="100%" stop-color="#8a0a0a"/></linearGradient></defs>
+          </svg>
+        </div>
+        <h3>Vaccination & Deworming</h3>
+        <p>Comprehensive preventive care with scheduled vaccinations and deworming protocols tailored to your pet's age, breed, and lifestyle.</p>
+        <div class="svc-card__arrow">
+          <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 10h12M10 4l6 6-6 6"/></svg>
+        </div>
+      </div>
+
+      <div class="svc-card reveal" style="--i:5">
+        <div class="svc-card__icon-wrap">
+          <svg viewBox="0 0 48 48" fill="none">
+            <circle cx="24" cy="24" r="22" fill="url(#ic6)"/>
+            <path d="M16 20 Q24 14 32 20 Q36 26 32 32 Q24 38 16 32 Q12 26 16 20Z" fill="white" opacity="0.85"/>
+            <path d="M20 24 Q24 20 28 24" stroke="url(#ic6)" stroke-width="2" fill="none" stroke-linecap="round"/>
+            <defs><linearGradient id="ic6" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#c9a02a"/><stop offset="100%" stop-color="#8a6010"/></linearGradient></defs>
+          </svg>
+        </div>
+        <h3>Pet Grooming</h3>
+        <p>Professional grooming by trained specialists — bathing, trimming, nail care, ear cleaning, and coat treatments for a happy, healthy pet.</p>
+        <div class="svc-card__arrow">
+          <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 10h12M10 4l6 6-6 6"/></svg>
+        </div>
+      </div>
+
+      <div class="svc-card reveal" style="--i:6">
+        <div class="svc-card__icon-wrap">
+          <svg viewBox="0 0 48 48" fill="none">
+            <circle cx="24" cy="24" r="22" fill="url(#ic7)"/>
+            <rect x="15" y="14" width="18" height="22" rx="3" fill="white" opacity="0.85"/>
+            <path d="M20 22 L20 30 M24 22 L24 30 M28 22 L28 30" stroke="url(#ic7)" stroke-width="1.5"/>
+            <rect x="18" y="12" width="12" height="6" rx="2" fill="white" opacity="0.6"/>
+            <defs><linearGradient id="ic7" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#2a9ac9"/><stop offset="100%" stop-color="#0a5a8a"/></linearGradient></defs>
+          </svg>
+        </div>
+        <h3>Surgery Facility</h3>
+        <p>State-of-the-art surgical suite for routine to complex procedures, with full anaesthesia monitoring and dedicated post-operative recovery care.</p>
+        <div class="svc-card__arrow">
+          <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 10h12M10 4l6 6-6 6"/></svg>
+        </div>
+      </div>
+
+      <div class="svc-card svc-card--highlight reveal" style="--i:7">
+        <div class="svc-card__icon-wrap">
+          <svg viewBox="0 0 48 48" fill="none">
+            <circle cx="24" cy="24" r="22" fill="url(#ic8)"/>
+            <rect x="10" y="20" width="28" height="16" rx="4" fill="white" opacity="0.85"/>
+            <circle cx="24" cy="28" r="5" fill="url(#ic8)" opacity="0.5"/>
+            <path d="M10 26 L6 28 M38 26 L42 28" stroke="white" stroke-width="2" stroke-linecap="round"/>
+            <path d="M20 18 L24 14 L28 18" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+            <defs><linearGradient id="ic8" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#c92a5a"/><stop offset="100%" stop-color="#8a0a30"/></linearGradient></defs>
+          </svg>
+        </div>
+        <h3>24/7 Ambulance Service</h3>
+        <p>Round-the-clock emergency pet ambulance. Rapid response, equipped vehicles, and trained emergency staff — always ready when every second counts.</p>
+        <div class="svc-card__tag">Emergency</div>
+        <div class="svc-card__arrow">
+          <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 10h12M10 4l6 6-6 6"/></svg>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SPECIAL OFFER -->
+<section class="offer section" id="offer">
+  <div class="container">
+    <div class="offer__wrap reveal">
+      <div class="offer__left">
+        <div class="offer__dial">
+          <svg viewBox="0 0 200 200" fill="none" class="offer__dial-svg">
+            <circle cx="100" cy="100" r="90" stroke="rgba(201,146,42,0.15)" stroke-width="1"/>
+            <circle cx="100" cy="100" r="70" stroke="rgba(201,146,42,0.1)" stroke-width="1"/>
+            <circle cx="100" cy="100" r="88" stroke="url(#dialGrad)" stroke-width="4" stroke-dasharray="554" stroke-dashoffset="138" stroke-linecap="round"/>
+            <circle cx="100" cy="100" r="60" fill="url(#dialFill)"/>
+            <text x="100" y="82" text-anchor="middle" fill="white" font-size="11" font-family="Outfit" letter-spacing="2" opacity="0.7">SPECIAL DISCOUNT</text>
+            <text x="100" y="120" text-anchor="middle" fill="white" font-size="58" font-family="Cormorant Garamond" font-weight="700">50</text>
+            <text x="148" y="105" fill="#c9922a" font-size="20" font-family="Outfit" font-weight="600">%</text>
+            <text x="100" y="140" text-anchor="middle" fill="rgba(255,255,255,0.65)" font-size="10" font-family="Outfit" letter-spacing="2">FOR STREET DOGS</text>
+            <defs>
+              <linearGradient id="dialGrad" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#e8b060"/>
+                <stop offset="100%" stop-color="#c9922a"/>
+              </linearGradient>
+              <radialGradient id="dialFill" cx="40%" cy="35%">
+                <stop offset="0%" stop-color="#2a4a70"/>
+                <stop offset="100%" stop-color="#0d2340"/>
+              </radialGradient>
+            </defs>
+          </svg>
+        </div>
+      </div>
+      <div class="offer__right">
+        <p class="section__label">A Cause Close to Our Hearts</p>
+        <h2 class="offer__title">Every Street Dog<br/>Deserves <em>True Care</em></h2>
+        <p class="offer__text">We believe compassion should have no price tag. If you find a stray in need, bring them to us. Our full veterinary services are available at 50% off for every street dog — because every life deserves a chance.</p>
+        <div class="offer__quote">
+          <span class="offer__quote-mark">"</span>
+          <span>They have no voice. We choose to be theirs.</span>
+        </div>
+        <a href="tel:7073450706" class="btn btn--gold btn--3d">Get Help for a Street Dog</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="why section" id="why">
+  <div class="container">
+    <div class="section__header">
+      <p class="section__label reveal">Why Choose Us</p>
+      <h2 class="section__title reveal">The Pet's Care <em>Difference</em></h2>
+    </div>
+    <div class="why__grid">
+      <div class="why-card reveal" style="--i:0">
+        <div class="why-card__num">01</div>
+        <div class="why-card__icon">
+          <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M16 2C8 2 2 8 2 16s6 14 14 14 14-6 14-14S24 2 16 2z"/><path d="M10 16l4 4 8-8"/></svg>
+        </div>
+        <h3>Licensed Expert Team</h3>
+        <p>Every vet on our team holds full clinical certification and brings genuine passion for animal welfare to every consultation.</p>
+      </div>
+      <div class="why-card reveal" style="--i:1">
+        <div class="why-card__num">02</div>
+        <div class="why-card__icon">
+          <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="7" width="26" height="18" rx="3"/><path d="M3 12h26"/><path d="M10 17h12"/></svg>
+        </div>
+        <h3>Home Visit Convenience</h3>
+        <p>No travel anxiety for your pet. Our vets come to your door, fully equipped for check-ups, treatments, and vaccinations.</p>
+      </div>
+      <div class="why-card reveal" style="--i:2">
+        <div class="why-card__num">03</div>
+        <div class="why-card__icon">
+          <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M16 3L20 12H30L22 18L25 28L16 22L7 28L10 18L2 12H12Z"/></svg>
+        </div>
+        <h3>Transparent Pricing</h3>
+        <p>No hidden costs. We believe quality veterinary care should be accessible — clear quotes, honest advice, no surprises.</p>
+      </div>
+      <div class="why-card reveal" style="--i:3">
+        <div class="why-card__num">04</div>
+        <div class="why-card__icon">
+          <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 12 Q6 4 16 4 Q26 4 26 12 L26 20 Q26 28 16 28 Q6 28 6 20 Z"/><path d="M12 16 L14 18 L20 12"/></svg>
+        </div>
+        <h3>All Pets Welcome</h3>
+        <p>Dogs, cats, birds, rabbits, and beyond — our clinic is equipped and our team is trained to care for all companion animals.</p>
+      </div>
+      <div class="why-card reveal" style="--i:4">
+        <div class="why-card__num">05</div>
+        <div class="why-card__icon">
+          <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="16" cy="16" r="13"/><path d="M16 8v8l5 3"/></svg>
+        </div>
+        <h3>Emergency Ready 24/7</h3>
+        <p>Our ambulance service and on-call vets are available around the clock. Because emergencies don't follow office hours.</p>
+      </div>
+      <div class="why-card reveal" style="--i:5">
+        <div class="why-card__num">06</div>
+        <div class="why-card__icon">
+          <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M16 4 C12 4 4 8 4 16 C4 24 10 28 16 28 C22 28 28 24 28 16 C28 8 20 4 16 4Z"/><path d="M12 14 L16 18 L20 10"/></svg>
+        </div>
+        <h3>Community Responsibility</h3>
+        <p>Our 50% street dog programme reflects our belief that veterinary care is a social responsibility, not just a service.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testi section">
+  <div class="container">
+    <div class="section__header">
+      <p class="section__label reveal">Real Stories</p>
+      <h2 class="section__title reveal">Pet Parents <em>Trust Us</em></h2>
+    </div>
+    <div class="testi__grid">
+      <div class="testi-card reveal" style="--i:0">
+        <div class="testi-card__rating">
+          <svg viewBox="0 0 80 16" fill="none">
+            <g fill="#c9922a">
+              <path d="M8 1l1.8 3.6 4 .6-2.9 2.8.7 4L8 10l-3.6 1.9.7-4L2.2 5.2l4-.6z"/>
+              <path d="M24 1l1.8 3.6 4 .6-2.9 2.8.7 4L24 10l-3.6 1.9.7-4-2.9-2.8 4-.6z"/>
+              <path d="M40 1l1.8 3.6 4 .6-2.9 2.8.7 4L40 10l-3.6 1.9.7-4-2.9-2.8 4-.6z"/>
+              <path d="M56 1l1.8 3.6 4 .6-2.9 2.8.7 4L56 10l-3.6 1.9.7-4-2.9-2.8 4-.6z"/>
+              <path d="M72 1l1.8 3.6 4 .6-2.9 2.8.7 4L72 10l-3.6 1.9.7-4-2.9-2.8 4-.6z"/>
+            </g>
+          </svg>
+        </div>
+        <p>"My dog Bruno had a midnight emergency — the ambulance arrived in minutes and the vet was calm, skilled, and genuinely warm. Bruno is perfectly healthy now. We are forever grateful."</p>
+        <div class="testi-card__author">
+          <div class="testi-card__avatar">R</div>
+          <div>
+            <strong>Ramesh Sharma</strong>
+            <small>Bruno's father</small>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card reveal" style="--i:1">
+        <div class="testi-card__rating">
+          <svg viewBox="0 0 80 16" fill="none"><g fill="#c9922a"><path d="M8 1l1.8 3.6 4 .6-2.9 2.8.7 4L8 10l-3.6 1.9.7-4L2.2 5.2l4-.6z"/><path d="M24 1l1.8 3.6 4 .6-2.9 2.8.7 4L24 10l-3.6 1.9.7-4-2.9-2.8 4-.6z"/><path d="M40 1l1.8 3.6 4 .6-2.9 2.8.7 4L40 10l-3.6 1.9.7-4-2.9-2.8 4-.6z"/><path d="M56 1l1.8 3.6 4 .6-2.9 2.8.7 4L56 10l-3.6 1.9.7-4-2.9-2.8 4-.6z"/><path d="M72 1l1.8 3.6 4 .6-2.9 2.8.7 4L72 10l-3.6 1.9.7-4-2.9-2.8 4-.6z"/></g></svg>
+        </div>
+        <p>"Luna gets terribly anxious at clinics. The home visit service was life-changing — the vet was patient, gentle, and spoke to Luna like she was a person. Such a beautiful experience."</p>
+        <div class="testi-card__author">
+          <div class="testi-card__avatar" style="background:var(--navy-mid)">P</div>
+          <div>
+            <strong>Priya Mehta</strong>
+            <small>Luna's mother</small>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card reveal" style="--i:2">
+        <div class="testi-card__rating">
+          <svg viewBox="0 0 80 16" fill="none"><g fill="#c9922a"><path d="M8 1l1.8 3.6 4 .6-2.9 2.8.7 4L8 10l-3.6 1.9.7-4L2.2 5.2l4-.6z"/><path d="M24 1l1.8 3.6 4 .6-2.9 2.8.7 4L24 10l-3.6 1.9.7-4-2.9-2.8 4-.6z"/><path d="M40 1l1.8 3.6 4 .6-2.9 2.8.7 4L40 10l-3.6 1.9.7-4-2.9-2.8 4-.6z"/><path d="M56 1l1.8 3.6 4 .6-2.9 2.8.7 4L56 10l-3.6 1.9.7-4-2.9-2.8 4-.6z"/><path d="M72 1l1.8 3.6 4 .6-2.9 2.8.7 4L72 10l-3.6 1.9.7-4-2.9-2.8 4-.6z"/></g></svg>
+        </div>
+        <p>"Found a street dog that needed urgent surgery. The team immediately activated the street dog discount and treated him with the same care as any beloved pet. This clinic has a true soul."</p>
+        <div class="testi-card__author">
+          <div class="testi-card__avatar" style="background:#2a6a4a">A</div>
+          <div>
+            <strong>Amit Khanna</strong>
+            <small>Animal Welfare Volunteer</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact section" id="contact">
+  <div class="container">
+    <div class="contact__grid">
+      <div class="contact__left reveal">
+        <p class="section__label">Reach Out</p>
+        <h2 class="section__title">Book Your Pet's<br/><em>Appointment</em></h2>
+        <p class="contact__sub">We're available 24 hours, 7 days. Fill the form or call us directly — we'll get back to you immediately.</p>
+
+        <div class="contact__callout">
+          <div class="contact__callout-inner">
+            <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M36 27.8v4.2a2.8 2.8 0 01-3.05 2.8 27.7 27.7 0 01-12.07-4.3A27.3 27.3 0 015.5 19.12 27.7 27.7 0 011.2 7.12A2.8 2.8 0 014 4.04h4.2a2.8 2.8 0 012.8 2.4c.18 1.34.5 2.67.98 3.94a2.8 2.8 0 01-.63 2.96L9.52 15.1a22.4 22.4 0 008.4 8.4l1.76-1.76a2.8 2.8 0 012.96-.63c1.27.48 2.6.8 3.94.98a2.8 2.8 0 012.4 2.84v.87z"/></svg>
+            <div>
+              <strong>Direct Line</strong>
+              <a href="tel:7073450706">7073450706</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact__features">
+          <div class="contact__feat">
+            <svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="9"/><path d="M11 6v5l3 2"/></svg>
+            <span>Emergency ambulance 24/7</span>
+          </div>
+          <div class="contact__feat">
+            <svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 9l8-6 8 6v10a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 21 9 12 13 12 13 21"/></svg>
+            <span>Home visits available</span>
+          </div>
+          <div class="contact__feat">
+            <svg viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+            <span>All pets and breeds welcome</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact__form-wrap reveal">
+        <form class="contact__form" id="contactForm">
+          <h3>Request a Callback</h3>
+          <div class="form-row">
+            <div class="form-field">
+              <label>Your Name</label>
+              <input type="text" placeholder="Full name" required/>
+            </div>
+            <div class="form-field">
+              <label>Phone Number</label>
+              <input type="tel" placeholder="Mobile number" required/>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-field">
+              <label>Pet Type</label>
+              <select>
+                <option value="">Select pet</option>
+                <option>Dog</option>
+                <option>Cat</option>
+                <option>Bird</option>
+                <option>Rabbit</option>
+                <option>Street Dog</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label>Service Required</label>
+              <select>
+                <option value="">Select service</option>
+                <option>Consultation</option>
+                <option>Home Visit</option>
+                <option>Grooming</option>
+                <option>Vaccination</option>
+                <option>Lab Tests</option>
+                <option>Surgery</option>
+                <option>Emergency</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-field">
+            <label>Message (Optional)</label>
+            <textarea placeholder="Describe your pet's condition or any specific concerns..."></textarea>
+          </div>
+          <button type="submit" class="btn btn--gold btn--3d btn--full">Send Request</button>
+          <p class="form-note">We typically respond within 30 minutes.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer__top container">
+    <div class="footer__brand">
+      <div class="footer__logo-wrap">
+        <svg viewBox="0 0 32 32" fill="none" class="footer__logo-icon">
+          <circle cx="16" cy="16" r="15" stroke="currentColor" stroke-width="1.2"/>
+          <path d="M16 8C11 8 8 11 8 15C8 20 11 22 16 24C21 22 24 20 24 15C24 11 21 8 16 8Z" fill="currentColor" opacity="0.2"/>
+          <circle cx="12" cy="14" r="2" fill="currentColor" opacity="0.5"/>
+          <circle cx="20" cy="14" r="2" fill="currentColor" opacity="0.5"/>
+          <path d="M16 17 L16 21" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <span class="footer__logo-name">Pet's Care Service</span>
+      </div>
+      <p>Compassion · Care · Commitment</p>
+      <p class="footer__motto">Tender Paws, True Care</p>
+    </div>
+    <div class="footer__col">
+      <strong>Navigation</strong>
+      <a href="#about">About Us</a>
+      <a href="#services">Services</a>
+      <a href="#offer">Street Dog Offer</a>
+      <a href="#why">Why Choose Us</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="footer__col">
+      <strong>Services</strong>
+      <span>Pet Care</span>
+      <span>Doctor Consultation</span>
+      <span>Home Visits</span>
+      <span>Lab Tests</span>
+      <span>Grooming</span>
+      <span>Surgery</span>
+      <span>24/7 Ambulance</span>
+    </div>
+    <div class="footer__col">
+      <strong>Contact</strong>
+      <a href="tel:7073450706">7073450706</a>
+      <span>24/7 Emergency Line</span>
+      <span>Home Visit Booking</span>
+      <span>Street Dog Helpline</span>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <div class="container">
+      <p>© 2025 Pet's Care Service. All rights reserved.</p>
+      <p class="footer__tagline">We care, because they do.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
